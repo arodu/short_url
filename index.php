@@ -9,7 +9,6 @@
 			header("Location: ".$list[$token]."?".http_build_query($_GET));
 			exit();
 		}
-
 	}
 
 	header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found", true, 404);
