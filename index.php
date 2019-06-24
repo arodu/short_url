@@ -11,5 +11,7 @@
 		}
 	}
 
+  
+
 	header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found", true, 404);
 	echo '<h1>404</h1><h3>Not Found.</h3>';
